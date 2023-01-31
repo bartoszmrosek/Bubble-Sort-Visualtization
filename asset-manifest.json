@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/bubble-sort/static/css/main.0dfa6686.css",
+    "main.js": "/bubble-sort/static/js/main.56b8a058.js",
+    "index.html": "/bubble-sort/index.html",
+    "main.0dfa6686.css.map": "/bubble-sort/static/css/main.0dfa6686.css.map",
+    "main.56b8a058.js.map": "/bubble-sort/static/js/main.56b8a058.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0dfa6686.css",
+    "static/js/main.56b8a058.js"
+  ]
+}
