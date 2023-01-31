@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { SortingStatus } from '../../types/SortingStatus';
 import './Visualization.css';
 import generateRandomInt from '../../utils/generateRandomIntWIthExclude';
+import Column from '../Column/Column';
 
 interface VisualtizationProps {
   setSortingStatus: React.Dispatch<React.SetStateAction<SortingStatus>>;
@@ -59,7 +60,7 @@ const Visualization = ({
     if (sortingStatus === 'solving') {
       timer = setInterval(() => {
         bubbleSort();
-      }, 50);
+      }, 100);
     } else {
       if (timer) clearInterval(timer);
     }
@@ -75,7 +76,13 @@ const Visualization = ({
     }
   }, [randomArrayToSort]);
 
-  return <div className="Visualtization--wrapper"></div>;
+  return (
+    <div className="visualtization--wrapper">
+      {randomArrayToSort.slice(1).map(value => (
+        <Column height={value as number} key={value} />
+      ))}
+    </div>
+  );
 };
 
 export default Visualization;
