@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/bubble-sort/static/css/main.0dfa6686.css",
-    "main.js": "/bubble-sort/static/js/main.56b8a058.js",
-    "index.html": "/bubble-sort/index.html",
-    "main.0dfa6686.css.map": "/bubble-sort/static/css/main.0dfa6686.css.map",
-    "main.56b8a058.js.map": "/bubble-sort/static/js/main.56b8a058.js.map"
+    "main.css": "/Bubble-Sort-Visualtization/static/css/main.0dfa6686.css",
+    "main.js": "/Bubble-Sort-Visualtization/static/js/main.56b8a058.js",
+    "index.html": "/Bubble-Sort-Visualtization/index.html",
+    "main.0dfa6686.css.map": "/Bubble-Sort-Visualtization/static/css/main.0dfa6686.css.map",
+    "main.56b8a058.js.map": "/Bubble-Sort-Visualtization/static/js/main.56b8a058.js.map"
   },
   "entrypoints": [
     "static/css/main.0dfa6686.css",
