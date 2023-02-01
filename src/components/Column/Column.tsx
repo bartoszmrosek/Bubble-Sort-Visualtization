@@ -10,7 +10,7 @@ const Column = memo(function Column({ height }: ColumnProps) {
   useEffect(() => {
     if (ref.current) ref.current.style.height = `${height}px`;
   }, []);
-  return <div className="column" ref={ref}></div>;
+  return <div className="column" ref={ref} data-testid="column"></div>;
 });
 
 export default Column;
