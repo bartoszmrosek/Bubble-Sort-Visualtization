@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Bubble-Sort-Visualtization/static/css/main.0dfa6686.css",
-    "main.js": "/Bubble-Sort-Visualtization/static/js/main.56b8a058.js",
+    "main.css": "/Bubble-Sort-Visualtization/static/css/main.42a72b07.css",
+    "main.js": "/Bubble-Sort-Visualtization/static/js/main.b2b153b6.js",
     "index.html": "/Bubble-Sort-Visualtization/index.html",
-    "main.0dfa6686.css.map": "/Bubble-Sort-Visualtization/static/css/main.0dfa6686.css.map",
-    "main.56b8a058.js.map": "/Bubble-Sort-Visualtization/static/js/main.56b8a058.js.map"
+    "main.42a72b07.css.map": "/Bubble-Sort-Visualtization/static/css/main.42a72b07.css.map",
+    "main.b2b153b6.js.map": "/Bubble-Sort-Visualtization/static/js/main.b2b153b6.js.map"
   },
   "entrypoints": [
-    "static/css/main.0dfa6686.css",
-    "static/js/main.56b8a058.js"
+    "static/css/main.42a72b07.css",
+    "static/js/main.b2b153b6.js"
   ]
 }
