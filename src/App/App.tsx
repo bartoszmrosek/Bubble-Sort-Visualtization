@@ -18,6 +18,7 @@ function App() {
 
   const handleNewSetClick = () => {
     setNewSetTrigger(prev => prev + 1);
+    setSortingStatus('not solved');
   };
 
   return (
@@ -29,10 +30,12 @@ function App() {
         newSetTrigger={newSetTrigger}
       />
       <span className="App--status">{sortingStatus}</span>
-      <button onClick={handleNewSetClick}>New set</button>
-      <button onClick={inverseSortingStatus}>
-        {sortingStatus === 'solving' ? 'Pause' : 'Start'}
-      </button>
+      <section className="btns--wrapper">
+        <button onClick={handleNewSetClick}>New set</button>
+        <button onClick={inverseSortingStatus}>
+          {sortingStatus === 'solving' ? 'Pause' : 'Start'}
+        </button>
+      </section>
     </main>
   );
 }
