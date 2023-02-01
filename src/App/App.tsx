@@ -31,8 +31,10 @@ function App() {
       />
       <span className="App--status">{sortingStatus}</span>
       <section className="btns--wrapper">
-        <button onClick={handleNewSetClick}>New set</button>
-        <button onClick={inverseSortingStatus}>
+        <button onClick={handleNewSetClick} data-testid="newSetBtn">
+          New set
+        </button>
+        <button onClick={inverseSortingStatus} data-testid="startStopBtn">
           {sortingStatus === 'solving' ? 'Pause' : 'Start'}
         </button>
       </section>
