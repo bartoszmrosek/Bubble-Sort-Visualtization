@@ -1,5 +1,5 @@
 .column{
-    width: 1.25rem;
+    width: calc(80vw/30);
     background-color: rgb(60, 209, 1);
     border: none;
     border-radius: 0.25rem;
